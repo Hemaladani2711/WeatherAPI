@@ -1,20 +1,19 @@
-package com.example.hemaladani.weatherapi;
+package com.example.hemaladani.weatherapi.data;
 
 /**
  * Created by hemaladani on 4/4/18.
  */
 
 public class WeatherObj {
-    private int counter,temp;
+    private int counter;
     private long time;
+
     private String Summary;
 
-    public WeatherObj(int counter, int temp, long time, String summary) {
-        this.counter = counter;
-        this.temp = temp;
-        this.time = time;
-        Summary = summary;
-    }
+public WeatherObj(){
+
+}
+
 
     public int getCounter() {
         return counter;
@@ -24,13 +23,6 @@ public class WeatherObj {
         this.counter = counter;
     }
 
-    public int getTemp() {
-        return temp;
-    }
-
-    public void setTemp(int temp) {
-        this.temp = temp;
-    }
 
     public long getTime() {
         return time;
@@ -47,6 +39,7 @@ public class WeatherObj {
     public void setSummary(String summary) {
         Summary = summary;
     }
+
 
 
 }

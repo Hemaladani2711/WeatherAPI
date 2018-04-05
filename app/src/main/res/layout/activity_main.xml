@@ -51,15 +51,6 @@
             android:padding="3dip" />
     </TableRow>
 
-    <TableRow>
-        <TextView
-            android:text="Temperature"
-            android:padding="3dip" />
-        <TextView
-            android:id="@+id/txtTemp"
-            android:text="F"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
+
 </TableLayout>
 </LinearLayout>
