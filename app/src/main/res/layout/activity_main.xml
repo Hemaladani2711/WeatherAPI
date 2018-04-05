@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Weather Update"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:layout_weight="3"
+    android:layout_gravity="center_vertical|center_horizontal"
+   >
+    <TableRow>
+        <TextView
+            android:text="Counter"
+            android:padding="3dip" />
+        <TextView
+            android:text="0"
+            android:id="@+id/txtCounter"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Summary"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtSummary"
+            android:text="Partly Cloudy"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtTime"
+            android:text="1pm"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Temperature"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtTemp"
+            android:text="F"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>
+</LinearLayout>
