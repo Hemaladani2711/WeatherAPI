@@ -4,12 +4,12 @@ package com.example.hemaladani.weatherapi;
  * Created by hemaladani on 4/4/18.
  */
 
-public class weatherObj {
+public class WeatherObj {
     private int counter,temp;
     private long time;
     private String Summary;
 
-    public weatherObj(int counter, int temp, long time, String summary) {
+    public WeatherObj(int counter, int temp, long time, String summary) {
         this.counter = counter;
         this.temp = temp;
         this.time = time;
